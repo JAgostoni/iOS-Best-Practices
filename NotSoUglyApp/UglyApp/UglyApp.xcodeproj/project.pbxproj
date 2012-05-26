@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F21F7F46157169EE00827F94 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F21F7F45157169EE00827F94 /* DataModel.m */; };
+		F21F7F4A15716E4100827F94 /* DataXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = F21F7F4915716E4100827F94 /* DataXMLParser.m */; };
+		F223898E1571538F00DE22B9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F223898D1571538F00DE22B9 /* UIKit.framework */; };
+		F22389901571538F00DE22B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F223898F1571538F00DE22B9 /* Foundation.framework */; };
+		F22389921571538F00DE22B9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F22389911571538F00DE22B9 /* CoreGraphics.framework */; };
+		F22389981571539000DE22B9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F22389961571539000DE22B9 /* InfoPlist.strings */; };
+		F223899A1571539000DE22B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F22389991571539000DE22B9 /* main.m */; };
+		F223899E1571539000DE22B9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F223899D1571539000DE22B9 /* AppDelegate.m */; };
+		F22389A11571539000DE22B9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F223899F1571539000DE22B9 /* MainStoryboard.storyboard */; };
+		F22389AB157156C400DE22B9 /* SampleData.xml in Resources */ = {isa = PBXBuildFile; fileRef = F22389AA157156C400DE22B9 /* SampleData.xml */; };
+		F22389AE157161A600DE22B9 /* ItemTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F22389AD157161A600DE22B9 /* ItemTableViewController.m */; };
+		F22389B11571634400DE22B9 /* DashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F22389B01571634400DE22B9 /* DashViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F21F7F44157169EE00827F94 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataModel.h; path = ../../../../../../../jagostoni/Documents/Projects/BestPractices/NotSoUglyApp/UglyApp/UglyApp/DataModel.h; sourceTree = "<group>"; };
+		F21F7F45157169EE00827F94 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataModel.m; path = ../../../../../../../jagostoni/Documents/Projects/BestPractices/NotSoUglyApp/UglyApp/UglyApp/DataModel.m; sourceTree = "<group>"; };
+		F21F7F4815716E4100827F94 /* DataXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DataXMLParser.h; path = ../../../../../../../jagostoni/Documents/Projects/BestPractices/NotSoUglyApp/UglyApp/UglyApp/DataXMLParser.h; sourceTree = "<group>"; };
+		F21F7F4915716E4100827F94 /* DataXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DataXMLParser.m; path = ../../../../../../../jagostoni/Documents/Projects/BestPractices/NotSoUglyApp/UglyApp/UglyApp/DataXMLParser.m; sourceTree = "<group>"; };
+		F22389891571538F00DE22B9 /* UglyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UglyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F223898D1571538F00DE22B9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F223898F1571538F00DE22B9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F22389911571538F00DE22B9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F22389951571539000DE22B9 /* UglyApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UglyApp-Info.plist"; sourceTree = "<group>"; };
+		F22389971571539000DE22B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F22389991571539000DE22B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F223899B1571539000DE22B9 /* UglyApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UglyApp-Prefix.pch"; sourceTree = "<group>"; };
+		F223899C1571539000DE22B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F223899D1571539000DE22B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F22389A01571539000DE22B9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		F22389AA157156C400DE22B9 /* SampleData.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SampleData.xml; sourceTree = "<group>"; };
+		F22389AC157161A600DE22B9 /* ItemTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemTableViewController.h; sourceTree = "<group>"; };
+		F22389AD157161A600DE22B9 /* ItemTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemTableViewController.m; sourceTree = "<group>"; };
+		F22389AF1571634400DE22B9 /* DashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashViewController.h; sourceTree = "<group>"; };
+		F22389B01571634400DE22B9 /* DashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F22389861571538F00DE22B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F223898E1571538F00DE22B9 /* UIKit.framework in Frameworks */,
+				F22389901571538F00DE22B9 /* Foundation.framework in Frameworks */,
+				F22389921571538F00DE22B9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F223897E1571538F00DE22B9 = {
+			isa = PBXGroup;
+			children = (
+				F22389931571538F00DE22B9 /* UglyApp */,
+				F223898C1571538F00DE22B9 /* Frameworks */,
+				F223898A1571538F00DE22B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F223898A1571538F00DE22B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F22389891571538F00DE22B9 /* UglyApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F223898C1571538F00DE22B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F223898D1571538F00DE22B9 /* UIKit.framework */,
+				F223898F1571538F00DE22B9 /* Foundation.framework */,
+				F22389911571538F00DE22B9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F22389931571538F00DE22B9 /* UglyApp */ = {
+			isa = PBXGroup;
+			children = (
+				F223899C1571539000DE22B9 /* AppDelegate.h */,
+				F223899D1571539000DE22B9 /* AppDelegate.m */,
+				F223899F1571539000DE22B9 /* MainStoryboard.storyboard */,
+				F22389941571539000DE22B9 /* Supporting Files */,
+				F22389AC157161A600DE22B9 /* ItemTableViewController.h */,
+				F22389AD157161A600DE22B9 /* ItemTableViewController.m */,
+				F22389AF1571634400DE22B9 /* DashViewController.h */,
+				F22389B01571634400DE22B9 /* DashViewController.m */,
+				F21F7F44157169EE00827F94 /* DataModel.h */,
+				F21F7F45157169EE00827F94 /* DataModel.m */,
+				F21F7F4815716E4100827F94 /* DataXMLParser.h */,
+				F21F7F4915716E4100827F94 /* DataXMLParser.m */,
+			);
+			path = UglyApp;
+			sourceTree = "<group>";
+		};
+		F22389941571539000DE22B9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F22389951571539000DE22B9 /* UglyApp-Info.plist */,
+				F22389961571539000DE22B9 /* InfoPlist.strings */,
+				F22389991571539000DE22B9 /* main.m */,
+				F223899B1571539000DE22B9 /* UglyApp-Prefix.pch */,
+				F22389AA157156C400DE22B9 /* SampleData.xml */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F22389881571538F00DE22B9 /* UglyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F22389A71571539000DE22B9 /* Build configuration list for PBXNativeTarget "UglyApp" */;
+			buildPhases = (
+				F22389851571538F00DE22B9 /* Sources */,
+				F22389861571538F00DE22B9 /* Frameworks */,
+				F22389871571538F00DE22B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UglyApp;
+			productName = UglyApp;
+			productReference = F22389891571538F00DE22B9 /* UglyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F22389801571538F00DE22B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = CEI;
+			};
+			buildConfigurationList = F22389831571538F00DE22B9 /* Build configuration list for PBXProject "UglyApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F223897E1571538F00DE22B9;
+			productRefGroup = F223898A1571538F00DE22B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F22389881571538F00DE22B9 /* UglyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F22389871571538F00DE22B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F22389981571539000DE22B9 /* InfoPlist.strings in Resources */,
+				F22389A11571539000DE22B9 /* MainStoryboard.storyboard in Resources */,
+				F22389AB157156C400DE22B9 /* SampleData.xml in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F22389851571538F00DE22B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F223899A1571539000DE22B9 /* main.m in Sources */,
+				F223899E1571539000DE22B9 /* AppDelegate.m in Sources */,
+				F22389AE157161A600DE22B9 /* ItemTableViewController.m in Sources */,
+				F22389B11571634400DE22B9 /* DashViewController.m in Sources */,
+				F21F7F46157169EE00827F94 /* DataModel.m in Sources */,
+				F21F7F4A15716E4100827F94 /* DataXMLParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F22389961571539000DE22B9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F22389971571539000DE22B9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F223899F1571539000DE22B9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F22389A01571539000DE22B9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F22389A51571539000DE22B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F22389A61571539000DE22B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F22389A81571539000DE22B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UglyApp/UglyApp-Prefix.pch";
+				INFOPLIST_FILE = "UglyApp/UglyApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F22389A91571539000DE22B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "UglyApp/UglyApp-Prefix.pch";
+				INFOPLIST_FILE = "UglyApp/UglyApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F22389831571538F00DE22B9 /* Build configuration list for PBXProject "UglyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22389A51571539000DE22B9 /* Debug */,
+				F22389A61571539000DE22B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F22389A71571539000DE22B9 /* Build configuration list for PBXNativeTarget "UglyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F22389A81571539000DE22B9 /* Debug */,
+				F22389A91571539000DE22B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F22389801571538F00DE22B9 /* Project object */;
+}
